@@ -6,31 +6,31 @@ The Medical Chatbot is an AI-powered assistant designed to provide medical infor
 
 ## Features
 
-***Conversational AI:** Users can ask medical-related questions and receive informative responses.
+* **Conversational AI:** Users can ask medical-related questions and receive informative responses.
 
-***Retrieval-Augmented Generation (RAG):** Enhances response accuracy by retrieving relevant documents before generating an answer.
+* **Retrieval-Augmented Generation (RAG):** Enhances response accuracy by retrieving relevant documents before generating an answer.
 
-***Integration with Pinecone:** Stores medical text embeddings for efficient similarity search.
+* **Integration with Pinecone:** Stores medical text embeddings for efficient similarity search.
 
-***Streamlit UI:** A colorful, interactive frontend for seamless user interaction.
+* **Streamlit UI:** A colorful, interactive frontend for seamless user interaction.
 
-***Optimized for Performance:** Utilizes embeddings from Hugging Face and a lightweight Gemini model.
+* **Optimized for Performance:** Utilizes embeddings from Hugging Face and a lightweight Gemini model.
 
 ## Tech Stack
 
-***Python**
+* **Python**
 
-***Streamlit** (UI Framework)
+* **Streamlit** (UI Framework)
 
-***LangChain** (for chaining LLM calls and retrieval)
+* **LangChain** (for chaining LLM calls and retrieval)
 
-***Pinecone** (Vector Store for document retrieval)
+* **Pinecone** (Vector Store for document retrieval)
 
-***Google Gemini AI** (LLM for response generation)
+* **Google Gemini AI** (LLM for response generation)
 
-***Hugging Face** (Embeddings for medical documents)
+* **Hugging Face** (Embeddings for medical documents)
 
-***dotenv** (For managing API keys securely)
+* **dotenv** (For managing API keys securely)
 
 ## Installation
 ### 1. Clone the Repository
