@@ -35,8 +35,9 @@ The Medical Chatbot is an AI-powered assistant designed to provide medical infor
 ## Installation
 ### 1. Clone the Repository
 ```bash
-   git clone https://github.com/0792211827/Gen-Ai-medical-chatbot
-
+   git clone https://github.com/0792211827/Gen-Ai-medical-chatbot.git
+   cd  Gen-Ai-medical-chatbot
+   
 ```
 ### 2. Create a Virtual Environment
 ```bash
