@@ -1,7 +1,14 @@
 import streamlit as st
 import requests
 import os
-API_KEY = st.secrets["MISTRAL_API_KEY"]
+
+try:
+    API_KEY = st.secrets["MISTRAL_API_KEY"]
+except KeyError:
+    st.error("❌ MISTRAL_API_KEY not found in Streamlit secrets. Please add it in the cloud secrets tab.")
+    st.stop()
+
+
 MISTRAL_URL = "https://api.mistral.ai/v1/chat/completions"
 
 headers = {
