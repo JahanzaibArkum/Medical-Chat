@@ -1,13 +1,7 @@
 import streamlit as st
 import requests
 import os
-if "MISTRAL_API_KEY" in st.secrets:
-    API_KEY = st.secrets["MISTRAL_API_KEY"]
-else:
-    from dotenv import load_dotenv
-    load_dotenv()
-    API_KEY = os.getenv("MISTRAL_API_KEY")
-    
+API_KEY = st.secrets["MISTRAL_API_KEY"]
 MISTRAL_URL = "https://api.mistral.ai/v1/chat/completions"
 
 headers = {
